@@ -52,6 +52,8 @@ npm install
 ```
 (If you need to upgrade your version of Node, [this tool](https://github.com/tj/n) is handy)
 
+**Note:** We prefer that you download this repository and email us (shipit@haveninc.com) your solution as a zip file rather than forking it so that your solution may remain hidden from other candidates.
+
 #### To log the output of passing in test data:
 ```bash
 npm start

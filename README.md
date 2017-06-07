@@ -1,11 +1,14 @@
 ## Haven Engineering Applicant Exercise
 
 ### High-level scenario:
-**Port Call**: A stop along a ship's voyage, including the name/code of the port, the estimated time of arrival (ETA) at the port, and the estimated time of departure (ETD) from the port.
 
-**Voyage**: A trip from one port to another, including the ETD from the port of origin, and the ETA at the port of arrival.
+![alt text](https://github.com/HavenInc/janus-exercise/blob/updating-read-me/shipping_definitions.png)
 
 **Goal**: Given a list of port calls (a sample input can be found at `/data/port-calls.json`), generate the list of possible voyages. The goal is to get all tests to pass by running `npm test`
+
+#### Definitions:
+- Port Call: A stop along a ship's voyage, including the name/code of the port, the estimated time of arrival (ETA) at the port, and the estimated time of departure (ETD) from the port.
+- Voyage: A trip from one port to another, including the ETD from the port of origin, and the ETA at the port of arrival.
 
 ### Types of voyages
 #### Across the same route
@@ -17,7 +20,7 @@ The simplest case of a voyage can be represented with the following:
 
 #### Across different routes (transhipments)
 The more complex case of a transhipment voyage can be represented with the following:
-- Two port calls on different routes
+- Two port calls on different routes (different `routeId`)
 - Where the two ports are different
 - Where the `etd` of the port of origin is before the `eta` of the port of destination
 - And the two ports can be connected by another port

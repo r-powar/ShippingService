@@ -2,7 +2,7 @@
 
 ### High-level scenario:
 
-![alt text](https://github.com/HavenInc/janus-exercise/blob/updating-read-me/shipping_definitions.png)
+![alt text](/images/shipping_definitions.png)
 
 **Goal**: Given a list of port calls (a sample input can be found at `/data/port-calls.json`), generate the list of possible voyages. The goal is to get all tests to pass by running `npm test`
 

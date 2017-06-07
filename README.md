@@ -7,7 +7,7 @@
 
 **Goal**: Given a list of port calls (a sample input can be found at `/data/port-calls.json`), generate the list of possible voyages. The goal is to get all tests to pass by running `npm test`
 
-# Types of voyages
+### Types of voyages
 #### Across the same route
 The simplest case of a voyage can be represented with the following:
 - Two port calls on the same route (`routeId`)
